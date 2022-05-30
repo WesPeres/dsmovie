@@ -4,6 +4,7 @@
     --bg-gray: #ddd;
     --color-primary: #4D41C0;
     --white: #ffffff;
+    --text-gray: #4A4A4A;
 }
 
 * {
@@ -56,4 +57,47 @@ a, a:hover {
 
 .dsmovie-compact-container img {
     margin-right: 10px;
+}
+
+.dsmovie-card {
+    width: 100%;
+}
+
+.dsmovie-card img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+#dsmovie-card-list {
+    padding: 40px 0;
+}
+
+.dsmovie-class-description {
+    background-color: var(--white);
+    padding: 10px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0 0 8px 8px;
+    min-height: 150px;
+    text-align: center;
+}
+
+.dsmovie-class-description h3 {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.dsmovie-btn, .dsmovie-btn:hover {
+    width: 180px;
+    height: 40px;
+    background-color: var(--color-primary);
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
 }
